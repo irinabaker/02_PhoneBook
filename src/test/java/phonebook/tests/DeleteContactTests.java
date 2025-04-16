@@ -1,7 +1,5 @@
 package phonebook.tests;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,6 +9,9 @@ public class DeleteContactTests extends TestBase {
 
     @BeforeMethod
     public void precondition() {
+        if (!app.getUserHelper().isLoginLinkPresent()) {
+            app.getUserHelper().clickOnSignOutButton();
+        }
         app.getUserHelper().login("portishead@gmail.com", "Password@1");
         app.getContactHelper().addNewContact(app.getContactHelper().CONTACT_NAME);
         app.getContactHelper().addNewContact(app.getContactHelper().CONTACT_NAME);

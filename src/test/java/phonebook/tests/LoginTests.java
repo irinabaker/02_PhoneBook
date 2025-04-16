@@ -1,11 +1,19 @@
 package phonebook.tests;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import phonebook.core.TestBase;
 import phonebook.model.User;
 
 public class LoginTests extends TestBase {
+
+    @BeforeMethod
+    public void precondition() {
+        if (!app.getUserHelper().isLoginLinkPresent()) {
+            app.getUserHelper().clickOnSignOutButton();
+        }
+    }
 
     @Test
     public void loginExistedUserPositiveTest() {
