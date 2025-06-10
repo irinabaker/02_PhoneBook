@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="phonebook.tests.LoginTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-06-10T14:18:25.294Z" hostname="DESKTOP-IDPAKS2" time="19.123">
+  <properties/>
+  <testcase name="loginExistedUserDataProviderPositiveTest[0](portishead@gmail.com, Password@1)" classname="phonebook.tests.LoginTests" time="1.319"/>
+  <testcase name="loginExistedUserDataProviderPositiveTest[1](portishead2026@gmail.com, Password@1)" classname="phonebook.tests.LoginTests" time="1.286"/>
+  <testcase name="loginExistedUserPositiveTest" classname="phonebook.tests.LoginTests" time="1.305"/>
+  <testcase name="loginExistedUserWithDataPositiveTest" classname="phonebook.tests.LoginTests" time="1.256"/>
+  <testcase name="loginNegativeTest" classname="phonebook.tests.LoginTests" time="1.562"/>
+  <testcase name="loginWOEmailNegativeTest" classname="phonebook.tests.LoginTests" time="1.341"/>
+  <system-out><![CDATA[16:18:22.820 [Test worker] INFO  phonebook.core.TestBase.setUp - Test is started: [loginExistedUserDataProviderPositiveTest]
+16:18:25.397 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing email: portishead@gmail.com
+16:18:25.595 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing password: Password@1
+By.xpath: //button[.='Sign Out'] ??????
+By.xpath: //button[.='Sign Out'] ??????
+16:18:26.683 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is PASSED: [loginExistedUserDataProviderPositiveTest]
+16:18:26.684 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is ended: [loginExistedUserDataProviderPositiveTest]
+16:18:26.819 [Test worker] INFO  phonebook.core.TestBase.setUp - Test is started: [loginExistedUserDataProviderPositiveTest]
+16:18:28.060 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing email: portishead2026@gmail.com
+16:18:28.272 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing password: Password@1
+By.xpath: //button[.='Sign Out'] ??????
+By.xpath: //button[.='Sign Out'] ??????
+16:18:29.300 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is PASSED: [loginExistedUserDataProviderPositiveTest]
+16:18:29.300 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is ended: [loginExistedUserDataProviderPositiveTest]
+16:18:29.416 [Test worker] INFO  phonebook.core.TestBase.setUp - Test is started: [loginExistedUserPositiveTest]
+16:18:30.571 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing email: portishead@gmail.com
+16:18:30.775 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing password: Password@1
+By.xpath: //button[.='Sign Out'] ??????
+By.xpath: //button[.='Sign Out'] ??????
+16:18:31.818 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is PASSED: [loginExistedUserPositiveTest]
+16:18:31.818 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is ended: [loginExistedUserPositiveTest]
+16:18:31.947 [Test worker] INFO  phonebook.core.TestBase.setUp - Test is started: [loginExistedUserWithDataPositiveTest]
+16:18:33.072 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing email: portishead@gmail.com
+16:18:33.270 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing password: Password@1
+By.xpath: //button[.='Sign Out'] ??????
+By.xpath: //button[.='Sign Out'] ??????
+16:18:34.287 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is PASSED: [loginExistedUserWithDataPositiveTest]
+16:18:34.288 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is ended: [loginExistedUserWithDataPositiveTest]
+16:18:34.410 [Test worker] INFO  phonebook.core.TestBase.setUp - Test is started: [loginNegativeTest]
+By.xpath: //button[.='Sign Out'] ??????
+16:18:41.995 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is PASSED: [loginNegativeTest]
+16:18:41.995 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is ended: [loginNegativeTest]
+16:18:42.114 [Test worker] INFO  phonebook.core.TestBase.setUp - Test is started: [loginWOEmailNegativeTest]
+16:18:43.175 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing email: null
+16:18:43.176 [Test worker] INFO  phonebook.fw.UserHelper.login - Typing password: Password@1
+By.xpath: //button[.='Sign Out'] ??????
+16:18:49.470 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is PASSED: [loginWOEmailNegativeTest]
+16:18:49.470 [Test worker] INFO  phonebook.core.TestBase.tearDown - Test is ended: [loginWOEmailNegativeTest]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

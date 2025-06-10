@@ -1,5 +1,4 @@
 .gradle
-build/
 test_screenshot
 test_logs
 !gradle/wrapper/gradle-wrapper.jar
